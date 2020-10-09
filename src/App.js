@@ -6,7 +6,7 @@ import {
   CSSReset
 } from "@chakra-ui/core";
 // components
-import { Button, ThemeToggler, Alert } from "./components";
+import { Button, ThemeToggler, Alert, FormContact } from "./components";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <ColorModeProvider>
           <CSSReset />
           <ThemeToggler />
-          <Alert />
+          <FormContact />
         </ColorModeProvider>
       </ThemeProvider>
     </div>
