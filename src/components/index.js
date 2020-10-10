@@ -6,3 +6,4 @@ export { default as Box } from "./Box";
 export { default as FormSignUp } from "./FormSignUp";
 export { default as FormSignIn } from "./FormSignIn";
 export { default as FormTabs } from "./FormTabs";
+export { default as Card } from "./Card";

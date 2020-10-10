@@ -6,10 +6,8 @@ import {
   FormLabel,
   FormControl,
   Heading,
-  IconButton,
   Flex,
-  Box,
-  useColorMode
+  Box
 } from "@chakra-ui/core";
 
 function FormContact() {

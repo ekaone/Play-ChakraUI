@@ -14,7 +14,8 @@ import {
   Box,
   FormSignUp,
   FormSignIn,
-  FormTabs
+  FormTabs,
+  Card
 } from "./components";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
         <ColorModeProvider>
           <CSSReset />
           <ThemeToggler />
-          <FormTabs />
+          <Card />
         </ColorModeProvider>
       </ThemeProvider>
     </div>

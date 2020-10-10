@@ -2,7 +2,6 @@ import React from "react";
 import {
   Input,
   Stack,
-  Box,
   InputLeftAddon,
   Icon,
   InputGroup,
@@ -37,7 +36,7 @@ function FormSignUp() {
               />
             </InputGroup>
           </FormControl>
-          <Divider />
+          <Divider borderColor="gray.500" />
           <FormControl isRequired>
             <InputGroup>
               <InputLeftAddon children={<Icon name="email" />} />
@@ -63,7 +62,10 @@ function FormSignUp() {
             Sign up!
           </Button>
           <FormHelperText textAlign="center">
-            We will never share your Email ✌
+            We will never share your Email{" "}
+            <span role="img" aria-label="Image">
+              ✌
+            </span>
           </FormHelperText>
         </Stack>
       </form>

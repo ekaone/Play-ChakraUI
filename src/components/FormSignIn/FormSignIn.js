@@ -2,7 +2,6 @@ import React from "react";
 import {
   Input,
   Stack,
-  Box,
   InputLeftAddon,
   Icon,
   InputGroup,
@@ -41,7 +40,12 @@ function FormSignIn() {
           >
             Sign in!
           </Button>
-          <FormHelperText textAlign="center">Welcome ✌</FormHelperText>
+          <FormHelperText textAlign="center">
+            Welcome{" "}
+            <span role="img" aria-label="Image">
+              ✌
+            </span>
+          </FormHelperText>
         </Stack>
       </form>
     </>
