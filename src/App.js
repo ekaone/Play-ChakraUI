@@ -25,7 +25,7 @@ function App() {
         <ColorModeProvider>
           <CSSReset />
           <ThemeToggler />
-          <Card />
+          <FormTabs />
         </ColorModeProvider>
       </ThemeProvider>
     </div>
