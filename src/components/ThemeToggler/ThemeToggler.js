@@ -6,13 +6,11 @@ function ThemeToggler() {
 
   return (
     <>
-      <Box textAlign="right" py={4} mr={12}>
-        <IconButton
-          icon={colorMode === "light" ? "moon" : "sun"}
-          onClick={toggleColorMode}
-          variant="ghost"
-        />
-      </Box>
+      <IconButton
+        icon={colorMode === "light" ? "moon" : "sun"}
+        onClick={toggleColorMode}
+        variant="ghost"
+      />
     </>
   );
 }

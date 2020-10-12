@@ -7,3 +7,5 @@ export { default as FormSignUp } from "./FormSignUp";
 export { default as FormSignIn } from "./FormSignIn";
 export { default as FormTabs } from "./FormTabs";
 export { default as Card } from "./Card";
+export { default as Drawer } from "./Drawer";
+export { default as Header } from "./Header";

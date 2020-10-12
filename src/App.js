@@ -15,7 +15,9 @@ import {
   FormSignUp,
   FormSignIn,
   FormTabs,
-  Card
+  Card,
+  Drawer,
+  Header
 } from "./components";
 
 function App() {
@@ -24,8 +26,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <ColorModeProvider>
           <CSSReset />
-          <ThemeToggler />
-          <FormTabs />
+          <Header />
         </ColorModeProvider>
       </ThemeProvider>
     </div>
