@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Play-ChakraUI/static/js/main.171b0183.chunk.js",
+    "main.js.map": "/Play-ChakraUI/static/js/main.171b0183.chunk.js.map",
+    "runtime-main.js": "/Play-ChakraUI/static/js/runtime-main.6126cb2c.js",
+    "runtime-main.js.map": "/Play-ChakraUI/static/js/runtime-main.6126cb2c.js.map",
+    "static/js/2.c29935e6.chunk.js": "/Play-ChakraUI/static/js/2.c29935e6.chunk.js",
+    "static/js/2.c29935e6.chunk.js.map": "/Play-ChakraUI/static/js/2.c29935e6.chunk.js.map",
+    "index.html": "/Play-ChakraUI/index.html",
+    "precache-manifest.2dc0f3487ab6b6d0d451b7a02ee22207.js": "/Play-ChakraUI/precache-manifest.2dc0f3487ab6b6d0d451b7a02ee22207.js",
+    "service-worker.js": "/Play-ChakraUI/service-worker.js",
+    "static/js/2.c29935e6.chunk.js.LICENSE.txt": "/Play-ChakraUI/static/js/2.c29935e6.chunk.js.LICENSE.txt",
+    "static/media/building.jpg": "/Play-ChakraUI/static/media/building.992237b0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6126cb2c.js",
+    "static/js/2.c29935e6.chunk.js",
+    "static/js/main.171b0183.chunk.js"
+  ]
+}
