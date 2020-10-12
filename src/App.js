@@ -32,6 +32,12 @@ function App() {
             <Switch>
               <Route exact path="/" component={Box} />
               <Route path="/card" component={Card} />
+              <Route path="/form-contact" component={FormContact} />
+              <Route path="/form-signin" component={FormSignIn} />
+              <Route path="/form-signup" component={FormSignUp} />
+              <Route path="/tabs" component={FormTabs} />
+              <Route path="/button" component={Button} />
+              <Route path="/alert" component={Alert} />
             </Switch>
           </ColorModeProvider>
         </ThemeProvider>
