@@ -10,6 +10,7 @@ function ThemeToggler() {
         icon={colorMode === "light" ? "moon" : "sun"}
         onClick={toggleColorMode}
         variant="ghost"
+        size="sm"
       />
     </>
   );

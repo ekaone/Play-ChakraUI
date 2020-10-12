@@ -25,10 +25,12 @@ export default function SideDrawer() {
     <>
       <IconButton
         ref={btnRef}
-        variantColor="teal"
+        variantColor="gray.200"
         onClick={onOpen}
         aria-label="List menu"
         icon="arrow-left"
+        size="sm"
+        color="gray.600"
       >
         Open
       </IconButton>
