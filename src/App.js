@@ -24,14 +24,14 @@ import {
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <ThemeProvider theme={theme}>
           <ColorModeProvider>
             <CSSReset />
             <Header />
             <Switch>
-              <Route exact path="/" component={Box} />
-              <Route path="/card" component={Card} />
+              <Route exact path="/" component={Card} />
+              <Route path="/box" component={Box} />
               <Route path="/form-contact" component={FormContact} />
               <Route path="/form-signin" component={FormSignIn} />
               <Route path="/form-signup" component={FormSignUp} />

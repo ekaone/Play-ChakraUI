@@ -4,8 +4,8 @@ import { List, ListItem, ListIcon, Stack } from "@chakra-ui/core";
 
 export default function ListComponent() {
   const routes = [
-    { id: 1, path: "/", list: "Home" },
-    { id: 2, path: "/card", list: "Card" },
+    { id: 1, path: "/", list: "Card" },
+    { id: 2, path: "/box", list: "Box" },
     { id: 3, path: "/form-contact", list: "Form Contact" },
     { id: 4, path: "/form-signin", list: "Form Sign in" },
     { id: 5, path: "/form-signup", list: "Form Sign up" },
