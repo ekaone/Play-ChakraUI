@@ -7,7 +7,7 @@ export default function ListComponent() {
     { id: 1, path: "/", list: "Home" },
     { id: 2, path: "/card", list: "Card" },
     { id: 3, path: "/form-contact", list: "Form Contact" },
-    { id: 4, path: "/form-singin", list: "Form Sign in" },
+    { id: 4, path: "/form-signin", list: "Form Sign in" },
     { id: 5, path: "/form-signup", list: "Form Sign up" },
     { id: 6, path: "/tabs", list: "Tabs" },
     { id: 7, path: "/button", list: "Button" },

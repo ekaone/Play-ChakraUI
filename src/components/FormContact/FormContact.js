@@ -24,7 +24,7 @@ const Contact = () => {
       <Box
         borderWidth={1}
         px={4}
-        width="full"
+        width="500px"
         maxWidth="1000px"
         borderRadius={4}
         textAlign="center"

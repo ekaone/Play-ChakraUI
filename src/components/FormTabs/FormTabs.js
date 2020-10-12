@@ -21,7 +21,7 @@ function FormTabs() {
         <Box
           p="2"
           mx="2"
-          bg={colorMode === "light" ? "gray.200" : "gray.600"}
+          bg={colorMode === "light" ? "gray.200" : "gray.700"}
           w="300px"
           h="70vh"
           boxShadow="sm"
