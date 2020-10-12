@@ -12,25 +12,27 @@ import {
   useDisclosure,
   Text,
   Stack,
-  IconButton
+  IconButton,
+  useColorMode
 } from "@chakra-ui/core";
 // components
 import MyList from "./List";
 
 export default function SideDrawer() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { colorMode } = useColorMode();
   const btnRef = useRef();
+  const iconColor = { light: "gray.600", dark: "white" };
 
   return (
     <>
       <IconButton
         ref={btnRef}
-        variantColor="gray.200"
         onClick={onOpen}
         aria-label="List menu"
         icon="arrow-left"
         size="sm"
-        color="gray.600"
+        color={iconColor[colorMode]}
       >
         Open
       </IconButton>

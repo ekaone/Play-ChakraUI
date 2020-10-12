@@ -1,15 +1,23 @@
 import React from "react";
-import { List, ListItem, ListIcon } from "@chakra-ui/core";
+import { Link } from "react-router-dom";
+import { List, ListItem, ListIcon, Stack } from "@chakra-ui/core";
 
 export default function ListComponent() {
   return (
     <>
-      <List styleType="disc">
-        <ListItem>Lorem ipsum dolor sit amet</ListItem>
-        <ListItem>Consectetur adipiscing elit</ListItem>
-        <ListItem>Integer molestie lorem at massa</ListItem>
-        <ListItem>Facilisis in pretium nisl aliquet</ListItem>
-      </List>
+      <Stack>
+        <List styleType="disc">
+          <Link as={Link} to="/">
+            <ListItem>Home</ListItem>
+          </Link>
+          <Link as={Link} to="/card">
+            <ListItem>Card</ListItem>
+          </Link>
+          <ListItem>Form</ListItem>
+          <ListItem>Form Tabs</ListItem>
+          <ListItem>Badge</ListItem>
+        </List>
+      </Stack>
     </>
   );
 }

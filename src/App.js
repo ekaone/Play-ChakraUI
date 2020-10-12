@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import {
   ThemeProvider,
   theme,
@@ -22,14 +23,20 @@ import {
 
 function App() {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
-        <ColorModeProvider>
-          <CSSReset />
-          <Header />
-        </ColorModeProvider>
-      </ThemeProvider>
-    </div>
+    <>
+      <Router>
+        <ThemeProvider theme={theme}>
+          <ColorModeProvider>
+            <CSSReset />
+            <Header />
+            <Switch>
+              <Route exact path="/" component={Box} />
+              <Route path="/card" component={Card} />
+            </Switch>
+          </ColorModeProvider>
+        </ThemeProvider>
+      </Router>
+    </>
   );
 }
 
