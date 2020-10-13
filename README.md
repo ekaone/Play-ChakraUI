@@ -1,11 +1,11 @@
-This is a [Mirage JS](https://nextjs.org/) scratch app bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Chakra-UI](https://chakra-ui.com/) scratch app bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Chakra-UI and Reactjs, take a look at the following resources:
 
 - [Reactjs Documentation](https://reactjs.org/) - learn about Reactjs features and API.
-- [Learn Mirage JS](https://miragejs.com/) - an Mock API tutorial.
+- [Learn Chakra-UI](https://chakra-ui.com/) - Chakra-UI component library tutorial.
 
 ## Author
 
