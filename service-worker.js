@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Play-ChakraUI/precache-manifest.2dc0f3487ab6b6d0d451b7a02ee22207.js"
+  "/Play-ChakraUI/precache-manifest.64e92a05c395c8c96f2504cfcafd9612.js"
 );
 
 self.addEventListener('message', (event) => {
