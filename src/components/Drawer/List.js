@@ -11,7 +11,8 @@ export default function ListComponent() {
     { id: 5, path: "/form-signup", list: "Form Sign up" },
     { id: 6, path: "/tabs", list: "Tabs" },
     { id: 7, path: "/button", list: "Button" },
-    { id: 8, path: "/alert", list: "Alert" }
+    { id: 8, path: "/alert", list: "Alert" },
+    { id: 8, path: "/responsive", list: "Responsive" }
   ];
 
   return (

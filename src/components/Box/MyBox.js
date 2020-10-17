@@ -6,7 +6,12 @@ function MyBox() {
 
   return (
     <>
-      <Flex width="full" justifyContent="center">
+      <Flex
+        minHeight="100vh"
+        align="center"
+        width="full"
+        justifyContent="center"
+      >
         <Box
           mx="4"
           w="200px"

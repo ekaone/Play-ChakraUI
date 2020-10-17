@@ -18,7 +18,8 @@ import {
   FormTabs,
   Card,
   Drawer,
-  Header
+  Header,
+  Responsive
 } from "./components";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
               <Route path="/tabs" component={FormTabs} />
               <Route path="/button" component={Button} />
               <Route path="/alert" component={Alert} />
+              <Route path="/responsive" component={Responsive} />
             </Switch>
           </ColorModeProvider>
         </ThemeProvider>
