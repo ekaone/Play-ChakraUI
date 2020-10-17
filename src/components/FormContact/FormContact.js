@@ -20,7 +20,7 @@ function FormContact() {
 
 const Contact = () => {
   return (
-    <Flex minHeight="75vh" width="full" align="center" justifyContent="center">
+    <Flex minHeight="100vh" width="full" align="center" justifyContent="center">
       <Box
         borderWidth={1}
         px={4}

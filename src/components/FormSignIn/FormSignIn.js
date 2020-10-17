@@ -15,7 +15,12 @@ import {
 function FormSignIn() {
   return (
     <>
-      <Flex width="full" align="center" justifyContent="center">
+      <Flex
+        minHeight="100vh"
+        width="full"
+        align="center"
+        justifyContent="center"
+      >
         <Box
           borderWidth={1}
           px={4}
