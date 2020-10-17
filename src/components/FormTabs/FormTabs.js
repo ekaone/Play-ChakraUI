@@ -17,13 +17,13 @@ function FormTabs() {
 
   return (
     <>
-      <Box justifyContent="center" d="flex" alignItems="center">
+      <Box width="full" justifyContent="center" d="flex" alignItems="center">
         <Box
           p="2"
           mx="2"
           bg={colorMode === "light" ? "gray.200" : "gray.700"}
           w="300px"
-          h="70vh"
+          h="100vh"
           boxShadow="sm"
           rounded="lg"
         >

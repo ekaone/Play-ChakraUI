@@ -1,9 +1,12 @@
 import React from "react";
-import { Flex, Stack, Box, Text, Grid } from "@chakra-ui/core";
+import { Flex, Stack, Box, Text, Grid, Heading } from "@chakra-ui/core";
 
 export default function Responsive() {
   return (
     <>
+      <Flex align="center" width="full" justifyContent="center">
+        <MyHeading />
+      </Flex>
       <Flex
         align="center"
         width="full"
@@ -16,7 +19,7 @@ export default function Responsive() {
             md: "repeat(2, 1fr)",
             sm: "repeat(1, 1fr)"
           }}
-          gap={10}
+          gap={5}
           maxWidth="86em"
           ml="auto"
           mr="auto"
@@ -54,5 +57,13 @@ const MyBox = () => (
         </Text>
       </Stack>
     </Box>
+  </>
+);
+
+const MyHeading = () => (
+  <>
+    <Heading as="h2">
+      <Text>Try resize your browser</Text>
+    </Heading>
   </>
 );
